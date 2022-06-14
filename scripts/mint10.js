@@ -1,5 +1,6 @@
 const hre = require("hardhat");
 const winston = require('winston');
+require('dotenv').config();
 
 async function main() {
   //logging
